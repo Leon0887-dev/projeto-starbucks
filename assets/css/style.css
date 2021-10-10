@@ -19,3 +19,13 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+
+
+.header-line{
+    height:10px;
+    background-color:var(--green-header-banner);
+}
