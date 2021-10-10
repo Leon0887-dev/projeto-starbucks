@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+:root{
+    --font-oswald: 'Oswald', sans-serif;
+
+    --green-header-banner:#117050;
+    --green-section:#006341;
+    --bg-hover-button:#454545;
+    --color-hover-button: #eeeeee;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
