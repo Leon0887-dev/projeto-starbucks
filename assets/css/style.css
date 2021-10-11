@@ -144,11 +144,11 @@ nav{
 .section-happy-hour--area{
     display: flex;
     flex-direction: column;
-    padding: 80px 0;
+    padding: 90px 0;
 }
 
-.section-happy-hour--area-txt p{
-    margin: 45px 0;
+.section-happy-hour--area-txt h1{
+    margin-bottom: 30px;
 }
 .section-happy-hour--area-img{
     display: flex;
