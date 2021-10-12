@@ -356,4 +356,13 @@ nav{
     .area1-img1{
         width: 100%;
     }
+    .area2{
+        grid-template-columns: 1fr;
+    }
+    .area2-content{
+        width: 100%;
+    }
+    .area2-img1{
+        width: 100%;
+    }
 }
