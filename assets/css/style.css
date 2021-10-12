@@ -315,4 +315,15 @@ nav{
         border: 5px solid var(--green-header-banner);
         margin-right: 20px;
     }
+
+
+    .area1{
+        grid-template-columns: 1fr;
+    }
+    .area1-content{
+        width: 100%;
+    }
+    .area1-img1{
+        width: 100%;
+    }
 }
