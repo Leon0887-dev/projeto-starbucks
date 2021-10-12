@@ -177,6 +177,9 @@ nav{
 }
 
 @media (min-width: 451px) and (max-width:768px){
+    *{
+        font-size: 15px;
+    }
     .container{
         padding: 0 2%;
     }
@@ -190,23 +193,49 @@ nav{
     .header-menu{
         margin-left: 50px;
     }
+
+    .img img{
+        display:block;
+        width: 120px;
+        height: 120px;
+        border-radius: 80px;
+        border: 5px solid var(--green-header-banner);
+        margin-right: 30px;
+    }
 }
     
 
 
 
 @media (max-width:450px){
+    *{
+        font-size: 13px;
+    }
+    h1{
+        font-size: 4rem;
+        line-height: 70px;
+    }
     .container{
         padding: 0 2%;
     }
     .header-search form input{
         width: 100%;
-        max-width: 280px;
+        max-width: 150px;
     }
     .header-menu{
         margin-left: 25px;
     }
     .header-nav--menu-area{
         width:50%
+    }
+
+
+    .img img{
+        display:block;
+        width: 80px;
+        height: 80px;
+        border-radius: 80px;
+        border: 5px solid var(--green-header-banner);
+        margin-right: 20px;
     }
 }
