@@ -284,7 +284,7 @@ nav{
     background-image: url('/assets/images/bg2.jpg');
     background-position: left;
     background-size: cover;
-    height: 100vh;
+    height: 770px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -340,6 +340,8 @@ nav{
 }
 .area4-img2 .image img{
     width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 
@@ -382,6 +384,12 @@ nav{
         border-radius: 80px;
         border: 5px solid var(--green-header-banner);
         margin-right: 30px;
+    }
+    .area4{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .area3-content-flex{
+        width:400px;
     }
 }
 
@@ -444,10 +452,24 @@ nav{
         grid-template-columns: 1fr;
     }
     .area3-content{
-        width: 100%;
         height: auto;
     }
     .area3-content-flex{
-        padding-right: 30px;
+        width: inherit;
+        padding: 40px;
+        
+    }
+
+    .area4{
+        grid-template-columns: 1fr;
+    }
+    .area4-content{
+        width: 100%;
+        height: auto;
+    }
+    .area4-content-flex{
+        width: inherit;
+        padding: 40px;
+        margin:  0;
     }
 }
