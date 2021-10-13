@@ -347,6 +347,31 @@ nav{
 
 
 
+/* FOOTER */
+
+footer{
+    background-color:var(--bg-hover-button) ;
+    
+}
+.footer-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+}
+.footer-txt p{
+    margin-bottom: 80px;
+    color: #fff;
+}
+.footer-txt p:last-child{
+    margin-bottom: 0;
+}
+
+
+
+
+
+/*responsividade*/
 
 @media (min-width: 769px) and (max-width:1024px){
     .container{
