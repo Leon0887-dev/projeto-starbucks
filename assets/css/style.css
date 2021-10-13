@@ -291,6 +291,7 @@ nav{
 }
 .area3-content-flex{
     width: 475px;
+    padding-left: 30px;
 }
 .area3-content-flex .button{
     margin-top: 30px;
@@ -312,6 +313,7 @@ nav{
     .container{
         padding: 0 2%;
     }
+    
 }
 
 
@@ -401,5 +403,14 @@ nav{
     .area2-img1{
         width: 100%;
     }
-    
+    .area3{
+        grid-template-columns: 1fr;
+    }
+    .area3-content{
+        width: 100%;
+        height: auto;
+    }
+    .area3-content-flex{
+        padding-right: 30px;
+    }
 }
